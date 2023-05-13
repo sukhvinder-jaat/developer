@@ -1,38 +1,191 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Helvetica";
+  src: url(../src/assets/fonts/Helvetica-Bold.ttf);
+  src: url(../src/assets/fonts/Helvetica-BoldOblique.ttf);
+  src: url(../src/assets/fonts/helvetica-compressed-5871d14b6903a.otf);
+  src: url(../src/assets/fonts/helvetica-light-587ebe5a59211.ttf);
+  src: url(../src/assets/fonts/Helvetica-Oblique.ttf);
+  src: url(../src/assets/fonts/helvetica-rounded-bold-5871d05ead8de.otf);
+  src: url(../src/assets/fonts/Helvetica.ttf);
 }
+:root {
+  --fs-11: 11px;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+  --fs-16: 16px;
+  --fs-17: 17px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-20: 20px;
+  --fs-21: 21px;
+  --fs-32: 32px;
+  --fs-35: 35px;
+  --fs-36: 36px;
+  --fs-37: 37px;
+  --fs-38: 38px;
+  --fs-39: 39px;
+  --fs-94: 94px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  --bg-bg_blue_light: #0093e3;
+  --bg-nav: rgba(0, 0, 0, 0.6);
+  --clr-nav: #848895;
+  --clr-jamuni: #9945ff;
+  --clr-light_black: #c4c4c4;
+}
+@media (max-width: 768px) {
+  :root {
+    --fs-11: 11px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-17: 17px;
+    --fs-18: 18px;
+    --fs-19: 19px;
+    --fs-20: 20px;
+    --fs-21: 21px;
+    --fs-32: 32px;
+    --fs-35: 35px;
+    --fs-36: 36px;
+    --fs-37: 37px;
+    --fs-38: 38px;
+    --fs-39: 30px;
+    --fs-94: 84px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 576px) {
+  :root {
+    --fs-11: 11px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-17: 17px;
+    --fs-18: 18px;
+    --fs-19: 19px;
+    --fs-20: 20px;
+    --fs-21: 21px;
+    --fs-32: 32px;
+    --fs-35: 35px;
+    --fs-36: 36px;
+    --fs-37: 37px;
+    --fs-38: 38px;
+    --fs-39: 29px;
+    --fs-94: 54px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 400px) {
+  :root {
+    --fs-11: 11px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-17: 17px;
+    --fs-18: 18px;
+    --fs-19: 19px;
+    --fs-20: 20px;
+    --fs-21: 21px;
+    --fs-32: 32px;
+    --fs-35: 35px;
+    --fs-36: 36px;
+    --fs-37: 37px;
+    --fs-38: 38px;
+    --fs-39: 20px;
+    --fs-94: 54px;
   }
+}
+.fs_11 {
+  font-size: var(--fs-11);
+}
+.fs_12 {
+  font-size: var(--fs-12);
+}
+.fs_14 {
+  font-size: var(--fs-14);
+}
+.fs_15 {
+  font-size: var(--fs-15);
+}
+.fs_16 {
+  font-size: var(--fs-16);
+}
+.fs_17 {
+  font-size: var(--fs-17);
+}
+.fs_18 {
+  font-size: var(--fs-18);
+}
+.fs_19 {
+  font-size: var(--fs-19);
+}
+.fs_20 {
+  font-size: var(--fs-20);
+}
+.fs_21 {
+  font-size: var(--fs-21);
+}
+.fs_32 {
+  font-size: var(--fs-32);
+}
+.fs_35 {
+  font-size: var(--fs-35);
+}
+.fs_36 {
+  font-size: var(--fs-36);
+}
+.fs_37 {
+  font-size: var(--fs-37);
+}
+.fs_38 {
+  font-size: var(--fs-38);
+}
+.fs_39 {
+  font-size: var(--fs-39);
+}
+.fs_94 {
+  font-size: var(--fs-94);
+}
+/* clrs */
+.bg_blue_light {
+  background: var(--bg-bg_blue_light);
+}
+.bg_nav {
+  background: var(--bg-nav);
+}
+.clr_nav {
+  color: var(--clr-nav);
+}
+.clr_jamuni {
+  color: var(--clr-jamuni);
+}
+.clr_light_black {
+  color: var(--clr-light_black);
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_600 {
+  font-weight: 600 !important;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.ff_Helvetica {
+  font-family: "Helvetica" !important;
+}
+.ff_Roboto {
+  font-family: "Roboto";
 }
