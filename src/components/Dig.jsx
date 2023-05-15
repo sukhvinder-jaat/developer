@@ -127,7 +127,7 @@ export const Dig = () => {
                   <p className="fw_400 pb-4 fs_16 text-white ff_Helvetica lh_26">
                     {val.head}
                   </p>
-                  <button className="pointer d-flex border-0 text-start bg-transparent fw_400 fs_11 text-white ff_Helvetica text-uppercase">
+                  <button className="pointer z-10 d-flex border-0 text-start bg-transparent fw_400 fs_11 text-white ff_Helvetica text-uppercase">
                     {val.btn} <img src={upp} alt="upp"className="ps-3"/>
                   </button>
                   <div className="bottom_shadow position-absolute"></div>
