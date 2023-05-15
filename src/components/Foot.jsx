@@ -14,16 +14,16 @@ export const Foot = () => {
     AOS.init();
   }, []);
   return (
-    <div className=" bg-black py-5">
-      <Container className=" container py-5">
+    <div className="bg-black py-5">
+      <Container className="container py-5">
         <Row>
           <Col lg={6} xs={12} data-aos="fade-right">
-            <img src={foot_img} alt="foot_img" className="foot_img_w pointer" />
-            <p className=" ff_Roboto fw_400 pt-3 fs_16 text-white">
+            <img src={foot_img} alt="foot_img"className="foot_img_w pointer"/>
+            <p className="ff_Roboto fw_400 pt-3 fs_16 text-white">
               Managed by Solana Foundation
             </p>
-            <div className=" d-flex align-items-center pt-3">
-              <img src={youtubee} alt="youtube" className="footer_logo" />
+            <div className="d-flex align-items-center pt-3">
+              <img src={youtubee} alt="youtube"className="footer_logo"/>
               <img
                 src={img_2}
                 alt="youtube"
@@ -50,14 +50,14 @@ export const Foot = () => {
                 className="footer_logo ms-3 d-none d-sm-block pointer"
               />
             </div>
-            <p className=" fw_400 fs_16 ff_Helvetica clr_nav pt-4">
+            <p className="fw_400 fs_16 ff_Helvetica clr_nav pt-4">
               ©2023Solana Foundation. All rights reserved.
             </p>
           </Col>
-          <Col lg={6} xs={12} className="pt-5 pt-lg-0" data-aos="fade-left">
+          <Col lg={6} xs={12} className="pt-5 pt-lg-0"data-aos="fade-left">
             <Row>
               <Col sm={4} xs={6}>
-                <p className=" ff_Helvetica fw_400 fs_16 text-uppercase text-white">
+                <p className="ff_Helvetica fw_400 fs_16 text-uppercase text-white">
                   Solana
                 </p>
                 <p className="pointer ff_Helvetica fw_400 fs_15 clr_nav hover_white">
@@ -77,7 +77,7 @@ export const Foot = () => {
                 </p>
               </Col>
               <Col sm={4} xs={6}>
-                <p className=" ff_Helvetica fw_400 fs_16 text-uppercase text-white">
+                <p className="ff_Helvetica fw_400 fs_16 text-uppercase text-white">
                   Get Connected
                 </p>
                 <p className="pointer ff_Helvetica fw_400 fs_15 clr_nav hover_white">
@@ -91,7 +91,7 @@ export const Foot = () => {
                 </p>
               </Col>
               <Col sm={4} xs={6}>
-                <img src={earth} alt="earth" className="pointer" />
+                <img src={earth} alt="earth"className="pointer"/>
               </Col>
             </Row>
           </Col>

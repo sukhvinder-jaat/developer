@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import nav_logo from "../assets/img/png/nav_logo.webp";
 import { AiOutlineAlignRight } from "react-icons/ai";
 export const MyNav = () => {
-  
   const [first, setfirst] = React.useState(true);
   function clickshow() {
     setfirst(!first);
@@ -15,24 +14,24 @@ export const MyNav = () => {
   }
   return (
     <div>
-      <div className=" bg_blue_light py-2">
+      <div className="bg_blue_light py-2">
         <p className="mb-0 text-center text-black ff_Roboto fw_400 fs_17">
           Breakpoint 2023 - New City. New Vibes - Get Early Access -
         </p>
       </div>
       <div className="bg-black py-3">
         <Container className="container">
-          <div className=" d-flex align-items-center justify-content-between">
+          <div className="d-flex align-items-center justify-content-between">
             <img
               src={nav_logo}
               alt="nav_logo"
-              className=" w-20 w_70_md animate__hinge"
+              className="w-20 w_70_md animate__hinge"
             />
             <h4
               className="text-white d-block fs_32 d-md-none z-10"
               onClick={clickshow}
             >
-              <AiOutlineAlignRight className="w-100" />
+              <AiOutlineAlignRight className="w-100"/>
             </h4>
             <div
               className={
@@ -45,7 +44,7 @@ export const MyNav = () => {
                 <span>
                   <p className="mb-0 clr_nav hover_white pointer ff_Helvetica fw_400 fs_17 me-md-5">
                     Learn
-                    <span className=" ps-2 svg_white">
+                    <span className="ps-2 svg_white">
                       <svg
                         width="15"
                         height="9"
@@ -71,7 +70,7 @@ export const MyNav = () => {
               </div>
               <div class="dropdown">
                 <span>
-                  <p className=" mb-0 clr_nav hover_white pointer ff_Helvetica fw_400 fs_17 me-md-5">
+                  <p className="mb-0 clr_nav hover_white pointer ff_Helvetica fw_400 fs_17 me-md-5">
                     Build
                     <span className="ps-2 svg_white">
                       <svg
@@ -99,7 +98,7 @@ export const MyNav = () => {
               </div>
               <div class="dropdown">
                 <span>
-                  <p className=" mb-0 clr_nav hover_white pointer ff_Helvetica fw_400 fs_17 me-md-5">
+                  <p className="mb-0 clr_nav hover_white pointer ff_Helvetica fw_400 fs_17 me-md-5">
                     Network
                     <span className="ps-2 svg_white">
                       <svg
@@ -127,7 +126,7 @@ export const MyNav = () => {
               </div>
               <div class="dropdown">
                 <span>
-                  <p className=" mb-0 clr_nav hover_white pointer ff_Helvetica fw_400 fs_17 me-md-5">
+                  <p className="mb-0 clr_nav hover_white pointer ff_Helvetica fw_400 fs_17 me-md-5">
                     Community
                     <span className="ps-2 svg_white">
                       <svg

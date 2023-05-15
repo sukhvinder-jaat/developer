@@ -1,5 +1,4 @@
 import React from "react";
-
 export const BackToTop = () => {
   const [backTop, setbackTop] = React.useState(false);
   const moveToTop = () => {
@@ -39,12 +38,12 @@ export const BackToTop = () => {
                 y2="-0.397026"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.08" stop-color="#9945FF" />
-                <stop offset="0.3" stop-color="#8752F3" />
-                <stop offset="0.5" stop-color="#5497D5" />
-                <stop offset="0.6" stop-color="#43B4CA" />
-                <stop offset="0.72" stop-color="#28E0B9" />
-                <stop offset="0.97" stop-color="#19FB9B" />
+                <stop offset="0.08"stop-color="#9945FF"/>
+                <stop offset="0.3"stop-color="#8752F3"/>
+                <stop offset="0.5"stop-color="#5497D5"/>
+                <stop offset="0.6"stop-color="#43B4CA"/>
+                <stop offset="0.72"stop-color="#28E0B9"/>
+                <stop offset="0.97"stop-color="#19FB9B"/>
               </linearGradient>
             </defs>
           </svg>
