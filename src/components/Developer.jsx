@@ -3,8 +3,8 @@ import section_1 from "../assets/img/png/section_1.webp";
 import { Col, Container, Row } from "react-bootstrap";
 export const Developer = () => {
   return (
-    <div className="bg-black overflow-hidden">
-      <Container className="container">
+    <div className="bg-black overflow-hidden h_1000vh d-flex align-items-center">
+      <Container className="container ">
         <Row className="align-items-center mb-5">
           <Col lg={6}>
             <p className="ff_Helvetica pt-5 pt-lg-0 fs_94 text-white fw_400 lh_96">
@@ -17,10 +17,10 @@ export const Developer = () => {
               </span>
             </p>
             <div className="pt-4 d-flex flex-xs-column flex-xsm-row">
-              <button className="ff_Roboto d-inline-block fw_400 text-black fs_15 text-uppercase btn_build">
+              <button className="z-9 ff_Roboto d-inline-block fw_400 text-black fs_15 text-uppercase btn_build">
                 Build Now
               </button>
-              <button className="ff_Roboto ms-3-xsm mt-3-xsm d-inline-block ms-sm-3 fw_400 stack_btn text-white bg-black fs_15 text-uppercase">
+              <button className="z-9 ff_Roboto ms-3-xsm mt-3-xsm d-inline-block ms-sm-3 fw_400 stack_btn text-white bg-black fs_15 text-uppercase">
                 Stack Exchange
                 <span className="ps-2">
                   <svg

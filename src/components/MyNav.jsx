@@ -28,10 +28,10 @@ export const MyNav = () => {
               className="w-20 w_70_md animate__hinge"
             />
             <h4
-              className="text-white d-block fs_32 d-md-none z-10"
+              className="text-white z-11 d-block fs_32 d-md-none z-10"
               onClick={clickshow}
             >
-              <AiOutlineAlignRight className="w-100"/>
+              <AiOutlineAlignRight className="w-100" />
             </h4>
             <div
               className={

@@ -128,11 +128,11 @@ export const Dig = () => {
                     {val.head}
                   </p>
                   <button className="pointer z-10 d-flex border-0 text-start bg-transparent fw_400 fs_11 text-white ff_Helvetica text-uppercase">
-                    {val.btn} <img src={upp} alt="upp"className="ps-3"/>
+                    {val.btn} <img src={upp} alt="upp"className="ps-3 z-10"/>
                   </button>
                   <div className="bottom_shadow position-absolute"></div>
                 </div>
-              </Col>
+              </Col> 
             );
           })}
         </Slider>
